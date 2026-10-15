@@ -2,7 +2,7 @@ function setup() {
   createCanvas(600, 600);//Crea un área de dibuix dee 600 pixels quadrats,600 pixels d'ample i 600 pixels d'alçada, Canvas és àrea de dibuix. Setup ès la configuració o carcteristíques del nostre codi.
 }
 
-function draw() {{//draw significa dibuixar
+function draw() {//draw significa dibuixar
   background(220);//fons de color gris, és de color gris perquè hi ha un número entre 0 i 255 i el 0 és negre i el 255 es blanc 
   
   fill(255,245,54);//Fill és omplir de color el que hi ha a continuació en aquest cas el·lipses. El primer número es el nivell de vermellor(R:red),el segon número es el nivell de verdor (G:green) i el tercer número es el nivell de blavor (B:blue). Podem fer 255·255·255:16.700.000 de colors diferents. He de posar el color que vulgui als ulls i a la cara canviant els 3 números,buscant a google coors RGB.
@@ -20,4 +20,4 @@ function draw() {{//draw significa dibuixar
   line(325,215,375,225);
   }
   
-}
+
