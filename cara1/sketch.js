@@ -10,9 +10,9 @@ function draw() {//draw significa dibuixar
   fill(35,152,255); 
   ellipse(250,285,35,25);
   ellipse(350,250,40,30);
-  fill(255,0,0);//és el color de la boca i és vermellós perquè te molta quantitat de vermell
-  arc(300,350,100,70,0,PI);//cella esquerra
-  noFill();//no omplis 
+  fill(255,0,0);//és el color de la boca i és vermellós perquè te molta quantitat de vermell.
+  arc(300,350,100,70,0,PI);//cella esquerra.
+  noFill();//no omplis.
   strokeWeight(4);
   arc(250,255,50,25,PI,0);
   strokeWeight(4);
